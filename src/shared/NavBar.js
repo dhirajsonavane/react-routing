@@ -37,7 +37,7 @@ const NavBar = () => {
             React Material UI - Routing
           </Typography>
 
-          <Link to="/react-routing" className={classes.button}>
+          <Link to="/" className={classes.button}>
             Home
           </Link>
           <Link to="/contact" className={classes.button}>
