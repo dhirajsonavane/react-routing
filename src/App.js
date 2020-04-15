@@ -17,7 +17,7 @@ class App extends React.Component {
         <NavBar />
         <Container style={{ display: "flex", justifyContent: "center" }}>
           <Switch>
-            <Route path="/" component={Home} exact />
+            <Route path="/react-routing" component={Home} exact />
             <Route path="/contact" component={Contact} />
             <Route path="/users" component={Users} />
           </Switch>
